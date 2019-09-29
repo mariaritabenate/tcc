@@ -1,0 +1,25 @@
+{
+  "name": "helenaapi",
+  "version": "1.0.0",
+  "description": "Helena API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.2",
+    "boom": "^7.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.0",
+    "serve-handler": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "nodemon": "^1.19.1"
+  }
+}
